@@ -82,6 +82,34 @@
             }
         }
     });
+    $(".partner-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 500,
+        // margin: 50,
+        loop: true,
+        autoplayHoverPause:true,
+        center: false,
+        dots: false,
+        nav: true,
+        navText : [
+            '<i class="bi bi-chevron-left"></i>',
+            '<i class="bi bi-chevron-right"></i>'
+        ],
+        responsive: {
+			0:{
+                items:1
+            },
+            576:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:4
+            }
+        }
+    });
     
 })(jQuery);
 
