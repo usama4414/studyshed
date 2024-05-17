@@ -315,6 +315,17 @@
     z-index: 2;
 }
 
+.accreditations-box {
+    /* position: relative;
+    width: 100%;
+    top: 0;
+    left: 0; */
+    /* text-align: center; */
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.06); /*40px 40px 80px rgba(0, 0, 0, .06); */
+    transition: .5s;
+    z-index: 2;
+}
 .service-item:hover .service-text {
     top: -1.5rem;
 }
